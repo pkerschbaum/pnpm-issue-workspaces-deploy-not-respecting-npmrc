@@ -1,0 +1,10 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "clean": "rm -rf ./package-a-deployed && find . -name 'node_modules' -type d -prune -print0 | xargs -0 rm -rf"
+  },
+  "engines": {
+    "pnpm": "8.1.1"
+  }
+}
